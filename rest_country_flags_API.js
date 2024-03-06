@@ -20,7 +20,7 @@ api.onload = function (){
 
       // console.log (result[i] )
       
-      countryNames =result[i].altSpellings[1];
+      countryNames =result[i].name.common,
       countryRegs =result[i].region
       countrySubRegs =result[i].subregion
       countryPops =result[i].population
@@ -30,7 +30,7 @@ api.onload = function (){
       
 
       var countryDetails = {
-        Country_Name  : result[i].altSpellings[1],
+        countryNames : result[i].name.common,
         Region        :result[i].region,
         Sub_Region    :result[i].subregion,
         Population    : result[i].population,
