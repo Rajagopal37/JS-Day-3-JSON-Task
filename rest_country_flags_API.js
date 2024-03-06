@@ -26,7 +26,7 @@ api.onload = function (){
       countryPops =result[i].population
       countryFlags = result[i].flags.png;
       
-      // console.log(`Country Name :${countryNames}, Region:${countryRegs} , Sub-Region:${countrySubRegs}, Population :${countryPops} , Flag:${countryFlags}`);
+      console.log(`Country Name :${countryNames}, Region:${countryRegs} , Sub-Region:${countrySubRegs}, Population :${countryPops} , Flag:${countryFlags}`);
       
 
       var countryDetails = {
